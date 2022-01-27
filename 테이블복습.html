@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>복습 - 테이블</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>테이블</h1>
+     <table border="2">
+       <thead>
+         <tr>
+           <th>태그</th>         <th>효과</th>           <th>작은태그</th>            <th>효과</th>                                  <th>속성</th>           <th>효과</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>table</td>        <td>표 작성</td>        <td>tr</td>                 <td>tr로 묶인 부분은 가로로 한 줄임을 표시</td>  <td>border</td>         <td></td>
+         </tr>
+         <tr>
+           <td>thead</td>        <td>표 상단임을 표시</td> <td>td</td>                <td>td로 묶인 부분은 표의 한 칸임을 표시</td>    <td>rowspan</td>        <td>세로로 몇 칸을 병합함 ="2.."</td>
+         </tr>
+         <tr>
+           <td>tbody</td>        <td>표 하단임을 표시</td> <td>th</td>                <td>thead에 속한 부분의 한 칸임을 표시</td>      <td rowspan="2">colspan</td>        <td rowspan="2">가로로 몇 칸을 병합함 ="2.."</td>
+         </tr>
+         <tr>
+           <td>tfoot</td>        <td>표 맨 아래임을 표시</td> <td colspan="2">X</td>
+         </tr>
+       </tbody>
+     </table>
+  </body>
+</html>
